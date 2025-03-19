@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #003049;
+    color: white;
+}
+.wrapper{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 4.2rem;
+    text-align:center;
+    margin: 30px 0 10px 0;
+    font-family: sans-serif;
+}
+.score-container {
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score {
+    color: darkred;
+    font-size: 10em;
+    font-family: "Big Shoulders Stencil", sans-serif;
+   
+}
+
+#home {
+    margin-right: -50px;
+}
+
+#guest {
+    margin-left: 10px;
+}
+.score-add {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+.score-btn, #reset-btn {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 15px 20px;
+    /* margin-right: 5px; */
+    font-size: 2rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+}
+.score-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 1.8rem;
+}
+
+.reset {
+    display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+}
+#reset-btn {
+    border: 2px solid red;
+    padding: 10px 40px;
+    color: red;
+}
+
+#reset-btn:hover {
+    background-color: rgba(242, 57, 57, 0.3);
+    font-size: 2.3rem;
+}
